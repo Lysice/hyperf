@@ -1,4 +1,26 @@
-# v2.2.13 - TBD
+# v2.2.14 - TBD
+
+## Added
+
+- [#4181](https://github.com/hyperf/hyperf/pull/4181) Added versions (v1.0, v2.0, v3.0) support for `psr/log`.
+
+## Fixed
+
+- [#4171](https://github.com/hyperf/hyperf/pull/4171) Fixed health check failed when using consul with token.
+
+# v2.2.13 - 2021-10-25
+
+## Added
+
+- [#4159](https://github.com/hyperf/hyperf/pull/4159) Allow `Macroable::mixin` to only add macros that do not exist yet.
+
+## Fixed
+
+- [#4158](https://github.com/hyperf/hyperf/pull/4158) Fixed bug that generate proxy class failed when using union type.
+
+## Optimized
+
+- [#4159](https://github.com/hyperf/hyperf/pull/4159) [#4166](https://github.com/hyperf/hyperf/pull/4166) Split `hyperf/macroable` from `hyperf/utils`.
 
 # v2.2.12 - 2021-10-18
 

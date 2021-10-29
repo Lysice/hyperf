@@ -1,11 +1,12 @@
 {
-    "name": "hyperf/logger",
-    "description": "A logger component for hyperf.",
+    "name": "hyperf/macroable",
+    "description": "Hyperf Macroable package which come from illuminate/macroable",
     "license": "MIT",
     "keywords": [
         "php",
+        "swoole",
         "hyperf",
-        "logger"
+        "macroable"
     ],
     "homepage": "https://hyperf.io",
     "support": {
@@ -15,21 +16,16 @@
         "source": "https://github.com/hyperf/hyperf"
     },
     "require": {
-        "php": ">=7.2",
-        "psr/log": "^1.0|^2.0|^3.0",
-        "psr/container": "^1.0|^2.0",
-        "hyperf/contract": "~2.2.0",
-        "hyperf/utils": "~2.2.0",
-        "monolog/monolog": "^2.0"
+        "php": ">=7.3"
     },
     "autoload": {
         "psr-4": {
-            "Hyperf\\Logger\\": "src/"
+            "Hyperf\\Macroable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "HyperfTest\\Logger\\": "tests/"
+            "HyperfTest\\Macroable\\": "tests/"
         }
     },
     "config": {
@@ -38,9 +34,6 @@
     "extra": {
         "branch-alias": {
             "dev-master": "2.2-dev"
-        },
-        "hyperf": {
-            "config": "Hyperf\\Logger\\ConfigProvider"
         }
     }
 }
